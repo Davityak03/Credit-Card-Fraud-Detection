@@ -10,13 +10,12 @@ The `creditcard.csv` dataset contains transactions over two days, with 492 fraud
 
 ## Dataset
 
-The dataset has 31 columns, each representing a different feature of the transactions. Here are the key columns:
+The dataset has 31 columns, each representing a different feature of the transactions. The dataset has been taken from kaggle. Here are the key columns:
 
 - **Time**: The elapsed time in seconds between this transaction and the first transaction in the dataset.
 - **V1, V2, ..., V28**: Principal components obtained using PCA (Principal Component Analysis). Due to confidentiality issues, the original features are not provided, and these are the transformed features.
 - **Amount**: The transaction amount.
 - **Class**: The response variable, taking value 1 in case of fraud and 0 otherwise.
-The dataset has been taken from kaggle
 
 ## Machine Learning Algorithms
 
